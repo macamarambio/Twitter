@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*SECCION MENÚ */
+nav {
+	background-color: #FFF;
+	width: 100%;
+	height: 50px;
+	margin: 0;
+	color: #9EA8AE;
+	text-align: center;
+	font-family: 'Space Mono', monospace;
+}
+
+.icon{
+	font-size: 30px;
+	text-align: left;
+	margin-left: 20px;
+	position: relative;
+	top: -50px;
+	color: #1DA1F2;
+}
+
+.icon p {
+	font-size: 14px;
+	color: #9EA8AE;
+	display: inline-block;
+	margin-bottom: -20px;
+}
+
+.fondo {
+	height: 600px;
+	background-image: url(http://abs.twimg.com/b/front_page/v1/AR_ES_MEX_LATAM_2.jpg);
+	background-size: cover;
+	text-align: center;
+}
+
+.square {
+	height: 300px;
+	width: 40%;
+	background-color: #FFF;
+	margin-top: 50px;
+	margin-left: 10%;
+	border-radius: 2%;
+	float: left
+}
+
+.squareText{
+	font-family: 'Cutive Mono', monospace;
+	color: #667886;
+	text-align: left;
+	padding-left: 30px;
+	margin: 8% auto;
+}
+
+.square hr {
+	border-color: #BFE5ED;
+	width: 90%;
+}
+
+.codigoBtn {
+	margin: 40px 30px;
+	text-align: left;
+}
+
+.codigoBtn a {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #667886;
+}
+
+
+form {
+	width: 40%;
+	height: 300px;
+	background-color: #FFF;/*#E5F4F8*/;
+	border-radius: 2%;
+	display: inline-block;
+	margin-top: 50px;
+	margin-right: 8%;
+}
+
+.text {
+	border-color: #BFE5ED;
+	overflow: auto;
+	resize: none;
+	overflow: hidden;
+	padding: 4%;
+	margin: 5%;
+	border-radius: 2%;
+}
+
+form span {
+	color: #667886;
+}
+
+button {
+	height: 35px;
+	width: 85px;
+	background-color: #AADBF9;
+	color: #FFF;
+	font-size: 15px;
+	border: transparent;
+}
+
+#container {
+    width: 600px;
+    margin-left: 310px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: #FFF;
+}
+
+
+

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Twitter</title>
+	<link href="https://fonts.googleapis.com/css?family=Cutive+Mono|Space+Mono" rel="stylesheet">
+	<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+	<!-- SECCION MENÚ -->
+	<header>
+		<nav>
+			<h1>Twitter</h1>
+			<div class="icon"><i class="fa fa-twitter" aria-hidden="true"></i>
+				<p>Inicio</p>
+			</div>
+		</nav>
+	</header>
+	<section class="fondo">
+		<div>
+			<!-- SECCION CON INFORMACIÓN -->
+			<div class="square">
+				<h2 class="squareText">Reto de Código</h2>
+				<p class="squareText">Hola,<br> soy front-end developer jr.</p>
+				<hr>
+				<h3 class="codigoBtn"><a href="#">Código</a></h3>
+			</div>
+			<!-- TEXTAREA PARA INGRESAR EL TWEET  -->
+			<form>
+				<textarea type="text" name="mensaje" id="mensaje" class="text" placeholder="¿Qué está pasando?" cols="60" rows="1"></textarea><br>
+				<span id="cont">140</span>
+				<button type="submit" id="btn" disabled>Twittear</button>
+			</form>
+		</div>
+	<!-- CONTENEDOR DONDE IRÁ EL NUEVO COMENTARIO -->
+	<div  id="container"></div>
+	</section>
+
+	<script src="https://use.fontawesome.com/964a466b3b.js"></script>
+	<script src="assets/js/app.js"></script>
+</body>
+</html>
