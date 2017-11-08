@@ -90,6 +90,11 @@ form {
 	padding: 4%;
 	margin: 5%;
 	border-radius: 2%;
+	font-size: 14px;
+}
+
+::placeholder {
+	font-size: 15px;
 }
 
 form span {
@@ -99,18 +104,27 @@ form span {
 button {
 	height: 35px;
 	width: 85px;
-	background-color: #AADBF9;
+	background-color: #1DA1F2; /* Disabled #AADBF9;*/
 	color: #FFF;
 	font-size: 15px;
 	border: transparent;
 }
 
+button:hover {
+	cursor: pointer;
+}
+
 #container {
-    width: 600px;
-    margin-left: 310px;
+    width: 90%;
+    margin-left: 5%;
     margin-top: 30px;
     margin-bottom: 30px;
     background-color: #FFF;
+    border-radius: 5px;
+    text-align: left;
+    padding-left: 2%;
+    font-size: 20px;
+    overflow: hidden;
 }
 
 
