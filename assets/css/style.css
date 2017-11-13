@@ -14,6 +14,13 @@ nav {
 	text-align: center;
 	font-family: 'Space Mono', monospace;
 }
+body {
+	height: 100%;
+	background-image: url(http://abs.twimg.com/b/front_page/v1/AR_ES_MEX_LATAM_2.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+	text-align: center;
+}
 
 .icon{
 	font-size: 30px;
@@ -33,13 +40,6 @@ nav {
 
 .icon p:hover {
 	cursor: pointer;
-}
-
-.fondo {
-	height: 620px;
-	background-image: url(http://abs.twimg.com/b/front_page/v1/AR_ES_MEX_LATAM_2.jpg);
-	background-size: cover;
-	text-align: center;
 }
 
 .square {
@@ -62,7 +62,9 @@ nav {
 
 .square hr {
 	border-color: #BFE5ED;
-	width: 90%;
+	margin-right: 20%;
+	width: 100%;
+	opacity: 0.5;
 }
 
 .codigoBtn {
@@ -124,20 +126,28 @@ button:hover {
 	cursor: pointer;
 }
 
-#container {
-    width: 90%;
+#container{
+	width: 90%;
+	margin-left: 11%;
+	margin-top: 25px;
+    text-align: left;
     max-height: 200px;
-    resize: none;
-    margin-left: 5%;
-    margin-top: 30px;
-    margin-bottom: 30px;
+    padding: 1%;
+}
+
+#container div {
+	width: 90%;
+	margin-left: -2%;
+	resize: none;
+    margin-bottom: 10px;
     background-color: #FFF;
     border-radius: 5px;
-    text-align: left;
     padding-left: 2%;
-    font-size: 20px;
-    overflow: scroll;
+    font-size: 18px;
 }
+
+
+
 
 
 
