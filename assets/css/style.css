@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 /*SECCION MENÚ */
@@ -19,7 +20,7 @@ nav {
 	text-align: left;
 	margin-left: 20px;
 	position: relative;
-	top: -50px;
+	top: -35px;
 	color: #1DA1F2;
 }
 
@@ -30,8 +31,12 @@ nav {
 	margin-bottom: -20px;
 }
 
+.icon p:hover {
+	cursor: pointer;
+}
+
 .fondo {
-	height: 600px;
+	height: 620px;
 	background-image: url(http://abs.twimg.com/b/front_page/v1/AR_ES_MEX_LATAM_2.jpg);
 	background-size: cover;
 	text-align: center;
@@ -84,13 +89,15 @@ form {
 
 .text {
 	border-color: #BFE5ED;
-	overflow: auto;
+	display: block;
 	resize: none;
 	overflow: hidden;
 	padding: 4%;
-	margin: 5%;
+	margin: 20px auto;
 	border-radius: 2%;
-	font-size: 14px;
+	font-size: 14px; 
+	max-height: 200px;
+	transition: height 2s;
 }
 
 ::placeholder {
@@ -104,10 +111,14 @@ form span {
 button {
 	height: 35px;
 	width: 85px;
-	background-color: #1DA1F2; /* Disabled #AADBF9;*/
+	background-color: #1DA1F2; 
 	color: #FFF;
 	font-size: 15px;
 	border: transparent;
+}
+
+button:disabled {
+	background-color: #AADBF9;
 }
 
 button:hover {
@@ -116,6 +127,8 @@ button:hover {
 
 #container {
     width: 90%;
+    max-height: 200px;
+    resize: none;
     margin-left: 5%;
     margin-top: 30px;
     margin-bottom: 30px;
@@ -124,7 +137,7 @@ button:hover {
     text-align: left;
     padding-left: 2%;
     font-size: 20px;
-    overflow: hidden;
+    overflow: scroll;
 }
 
 
